@@ -1,4 +1,3 @@
-const firstName = require('./nameFunctions');
-const lastName = require('./nameFunctions');
+const names = require('./nameFunctions');
 
-console.log(firstName.firstName("john") + " " + lastName.lastName("DOE"));
+console.log(`${names.firstName("john")} ${names.lastName("DOE")}`);

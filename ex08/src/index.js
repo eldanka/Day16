@@ -5,7 +5,7 @@ class Person {
         this.age = age;
     }
     getPerson() {
-        var personInfo = "Name: " + this.name + ", email: " + this.email + ", age: " + this.age;
+        var personInfo = `Name: ${this.name}, email: ${this.email}, age: ${this.age}`;
         return personInfo;
     }
 }
